@@ -4,6 +4,7 @@ import NotFound from './views/NotFound.vue'
 import Preview from './views/Preview.vue'
 import Tutorial from './views/Tutorial.vue'
 import Page from './views/Page.vue'
+import Imagegallery from './views/Imagegallery.vue'
 
 Vue.use(Router)
 
@@ -33,6 +34,11 @@ export default new Router({
       path: '/page/:uid',
       name: 'page',
       component: Page
+    },
+    {
+      path: '/imagegallery/:uid',
+      name: 'imagegallery',
+      component: Imagegallery
     },
     {
       path: '*',
