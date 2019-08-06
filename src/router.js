@@ -12,7 +12,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: { name: 'tutorial' }
+      redirect: { name: 'page' }
     },
     {
       path: '/not-found',
